@@ -14,7 +14,7 @@ void loop()
   
     int receive = digitalRead(sensor);
     Serial.println(receive);
-    if ( receive == "HIGH")
+    if ( receive == 1)
     {
       digitalWrite(LED, HIGH);
     }
